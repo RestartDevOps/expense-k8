@@ -34,7 +34,7 @@ spec:
         image: joindevops/backend:v1
         envFrom:
         - configMapRef:
-            name: backend
+            name: nginx-config
 ---
 kind: Service
 apiVersion: v1
